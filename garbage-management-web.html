@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Supermarket Management System</title>
+  <title>Web site for Managing Garbage Collections</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -64,10 +64,10 @@
           <ol>
             <li><a href="index.html">Home</a></li>
             <li class="current">My Recent Projects</li>
-            <li class="current">Supermarket Management System</li>
+            <li class="current">Web site for Managing Garbage Collections</li>
           </ol>
         </nav>
-        <h1>Supermarket Management System</h1>
+        <h1>Web site for Managing Garbage Collections</h1>
       </div>
     </div><!-- End Page Title -->
 
@@ -99,16 +99,19 @@
           <div class="swiper-wrapper align-items-center">
 
             <div class="swiper-slide">
-              <img src="assets\img\masonry-portfolio\IMR 1.jpg" alt="">
+              <img src="assets\img\masonry-portfolio\GC1.png" alt="">
             </div>
 
             <div class="swiper-slide">
-              <img src="assets\img\masonry-portfolio\IMR 2.png" alt="">
+              <img src="assets\img\masonry-portfolio\GC2.png" alt="">
             </div>
 
             <div class="swiper-slide">
-              <img src="assets\img\masonry-portfolio\IME 3.png" alt="">
+              <img src="assets\img\masonry-portfolio\GC3.png" alt="">
             </div>
+            <div class="swiper-slide">
+                <img src="assets\img\masonry-portfolio\GC4.png" alt="">
+              </div>
 
             
 
@@ -123,38 +126,31 @@
           <div class="col-lg-8" data-aos="fade-up">
             <div class="portfolio-description">
               <h2>Basic Introduction</h2>
-              <ul>
+              
+                <p>The project is a web-based platform designed to promote environmental cleanliness by enabling users to report garbage locations and assisting garbage collection staff in efficiently addressing these reports. The platform provides an interactive and user-friendly interface that allows users to mark garbage locations, while the garbage collection team can access and manage these reports for quick cleanup.</p>
+                <h5> <strong>Key Features:</strong></h5>
+            <ul>
                 <li>
-                  The project's focus is <strong>billing</strong>.
+                    <strong>Registration & Login:</strong> Registration & Login: Users can register and log in based on different roles (admin, green captain, garbage collecting staff, and general users).
                 </li>
                 <li>
-                  A supermarket is a store where people can buy and pay for their daily needs.
+                    <strong>Reporting:</strong>  Users can report garbage locations with details such as time, location, and type of garbage.
                 </li>
                 <li>
-                  As a result, it is necessary to calculate the number of products sold and generate a bill for the customer.
+                    <strong>Approval System:</strong> Reports can be reviewed and approved/rejected by authorized personnel.
                 </li>
                 <li>
-                  In our project, there are <strong>three users</strong>. The data entry operator is the first person who will enter the products into the database.
+                    <strong>Mapping Integration:</strong> Microsoft Bing Maps API is used to mark garbage locations visually.
                 </li>
                 <li>
-                  The second type of user is the administrator, who decides on product taxes and commissions and has access to any product's report.
+                    <strong>Admin Dashboard:</strong> Administrators can manage users, view reports, and oversee operations.
                 </li>
                 <li>
-                  The "Supermarket Management System" is built around the sale of items in a supermarket.
+                    <strong>Responsiveness & Validation:</strong> The site is responsive and includes input validation to ensure correct data submission.
                 </li>
-                <br>
-                <p> <strong>- The first activity involves entering the items into the system, as well as the rates available in the supermarket and the names of the items that the supermarket will agree to sell - </strong></p>
-                <p>This authority is only granted to admin and Manager. Any changes to the item name or rate can only be made by the Manager.
-                  They also have the authority to remove any item.
-                  When a customer buys products and comes to the billing counter, the Cashier should enter the item name he purchased and the quantity of the item Customer wanted to buy.
-                  When the customer name is entered it will display the offers that are given to the customer by checking the customer’s number of buying’s and whether the time period of the customer that registered to the super market is greater than one year.
-                  This information will be saved in the <strong>Database</strong>. At any time, any periodic records can be viewed.
-                  If the product is not in stock, the supermarket orders and purchases from a predetermined supplier.
-                  The amount will be paid after the total amount acquired in the sales activity is deducted.
-                  Manager assigns each Customer a unique username and password to use when logging in.
-                  The login consists of main components <strong>admin,</strong> <strong>manager</strong> and <strong>cashier</strong>.
-                  The Cashier is responsible for producing the bill and handling the payment.
-                  Manager is the person who responsible for managing the functions in the supermarket by managing supplies and products.</p>
+                <li>
+                    <strong>Testing:</strong> Includes unit, integration, and functional testing to verify different aspects of the application.
+                </li>
                   <div class="swiper-wrapper align-items-center">
 
                     <div class="portfolio-details-slider swiper init-swiper">
@@ -180,23 +176,18 @@
                       <div class="swiper-wrapper align-items-center">
             
                         <div class="swiper-slide">
-                          <img src="assets\img\masonry-portfolio\IMR 5.png" alt="">
+                          <img src="assets\img\masonry-portfolio\GC5.png" alt="">
                         </div>
             
                         <div class="swiper-slide">
-                          <img src="assets\img\masonry-portfolio\IMR 6.png" alt="">
+                          <img src="assets\img\masonry-portfolio\GC6.png" alt="">
                         </div>
             
                         <div class="swiper-slide">
-                          <img src="assets\img\masonry-portfolio\IMR 7.png" alt="">
+                          <img src="assets\img\masonry-portfolio\GC7.png" alt="">
                         </div>
 
-                        <div class="swiper-slide">
-                          <img src="assets\img\masonry-portfolio\IMR 8.png" alt="">
-                        </div>
-            
                         
-            
                       </div>
                       <div class="swiper-button-prev"></div>
                       <div class="swiper-button-next"></div>
@@ -204,12 +195,12 @@
                     </div>
 
                 
-              </ul>
+            </ul>
 
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>The Supermarket Management System is well-structured with strong database management and automation. It efficiently handles billing, inventory, and user roles. However, enhancing user experience, mobile integration, and automation (AI, RFID) could make it a next-gen retail solution! 🚀</span>
+                  <span>The web-based garbage management system enhances environmental sustainability by streamlining garbage collection, improving efficiency through real-time reporting and mapping, fostering community engagement, and promoting cleaner, healthier surroundings.🚮🌍</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
                 <div>
@@ -228,18 +219,18 @@
                 <li><strong>  Category</strong> 
                   <ul>
                     <li>
-                      • Information Management & Retrieval System
+                      • Environmental Management
                     </li>
                     <li>
-                      • Retail & Inventory Management System
+                      • Waste Management System
                     </li>
                     <li>
-                      • Billing & Transaction Processing System
+                      • Smart City Solutions
                     </li>
                   </ul>
                   </li>
                 <li><strong>  Client </strong> • University Project</li>
-                <li><strong>  Project date</strong> • 15 January, 2023</li>
+                <li><strong>  Project date</strong> • 21 April, 2023</li>
                 <li><a href="#" class="btn-visit align-self-start">Visit Website</a></li>
               </ul>
             </div>
