@@ -1325,6 +1325,25 @@ section,
 /*--------------------------------------------------------------
 # Service Details Section
 --------------------------------------------------------------*/
+
+.service-item {
+  transition: background-color 0.3s ease-in-out;
+}
+
+.service-item:hover {
+  background-color: #eb790f; /* Change to desired color */
+}
+
+.icon img {
+  width: 100px; /* Adjust as needed */
+  height: 100px;
+  transition: filter 0.3s ease-in-out;
+}
+
+.service-item:hover .icon img {
+  filter: brightness(0) invert(1); /* Adjust effect for better visibility */
+}
+
 .service-details .service-box {
   padding: 20px;
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
